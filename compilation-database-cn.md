@@ -2,7 +2,7 @@
 title: 编译数据库简介
 description: 
 published: true
-date: 2023-01-29T14:40:51.232Z
+date: 2023-01-30T15:02:10.911Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-29T14:39:23.226Z
@@ -18,7 +18,7 @@ dateCreated: 2023-01-29T14:39:23.226Z
 
 生成的编译数据库形如：
 
-```
+```json
 { "directory": "/home/user/llvm/build",
   "arguments": ["/usr/bin/clang++", "-Irelative", "-DSOMEDEF=With spaces, quotes and \\-es.", "-c", "-o", "file.o", "file.cc"],
   "file": "file.cc" },
