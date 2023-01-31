@@ -1,8 +1,8 @@
 ---
-title: C++ Declaration Type
+title: Declaration Type
 description: 
 published: true
-date: 2023-01-31T15:04:04.072Z
+date: 2023-01-31T16:05:14.169Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:04:04.072Z
