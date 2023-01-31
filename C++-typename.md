@@ -2,7 +2,7 @@
 title: C++ typename
 description: 
 published: true
-date: 2023-01-31T14:56:18.224Z
+date: 2023-01-31T14:56:36.374Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T14:56:18.224Z
@@ -13,7 +13,7 @@ dateCreated: 2023-01-31T14:56:18.224Z
   1. Before an unqualified type, like int or my_thingy_t.
   1. When naming a base class.
   
-  ```c++
+  ```cpp
   template <class C>
   class my_class : C::some_base_type  // should not be `typename C::some_base_type'
   {
