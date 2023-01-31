@@ -1,8 +1,8 @@
 ---
-title: 读书笔记-冯诺依曼-人类与机器届天才
+title: 读书笔记-冯诺依曼-人类与机器界天才
 description: 
 published: true
-date: 2023-01-31T15:47:44.287Z
+date: 2023-01-31T15:50:54.651Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:36:56.600Z
@@ -178,7 +178,7 @@ Cellular automata are a class of automata that exist in an infinite plane that i
 
 细胞组织自动机是一类自动机，它们存在于一个被方形细胞覆盖的无穷平面上，很像一个图纸表单。整个细胞平面将历经时间步骤（time step），在那里每个细胞的新的状态由它自己的状态和相邻细胞状态决定。这些简单的行为很复杂并包含了如生命活动这样的生命体基础。下面是冯.诺依曼的自我繁殖组织机器人的图解。
 
-
+![self_reproducing_cellular_automaton.bmp](/self_reproducing_cellular_automaton.bmp)
 
  
 
