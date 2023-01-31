@@ -1,8 +1,8 @@
 ---
-title: Vim Books
+title: Vim Tips
 description: 
 published: true
-date: 2023-01-31T15:17:16.686Z
+date: 2023-01-31T15:19:48.891Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:07:16.066Z
