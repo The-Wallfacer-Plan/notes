@@ -1,8 +1,8 @@
 ---
-title: C++ Smart Pointers
+title: Smart Pointers
 description: 
 published: true
-date: 2023-01-31T16:17:21.029Z
+date: 2023-01-31T16:17:52.632Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T14:57:30.961Z
