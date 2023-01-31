@@ -2,7 +2,7 @@
 title: Bash
 description: 
 published: true
-date: 2023-01-31T15:33:31.674Z
+date: 2023-01-31T16:52:57.224Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:30:17.875Z
