@@ -1,8 +1,8 @@
 ---
-title: C++ Strong and Weak Linkages
+title: Strong and Weak Linkages
 description: 
 published: true
-date: 2023-01-31T16:02:55.086Z
+date: 2023-01-31T16:18:25.083Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:05:29.468Z
