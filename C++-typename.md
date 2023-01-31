@@ -1,8 +1,8 @@
 ---
-title: C++ typename
+title: typename
 description: 
 published: true
-date: 2023-01-31T14:56:36.374Z
+date: 2023-01-31T16:07:17.201Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T14:56:18.224Z
