@@ -1,8 +1,8 @@
 ---
-title: zsh
+title: Zsh
 description: 
 published: true
-date: 2023-01-31T15:29:20.656Z
+date: 2023-01-31T16:14:13.312Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:29:20.656Z
