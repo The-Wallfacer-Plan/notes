@@ -1,8 +1,8 @@
 ---
-title: C++ RValue
+title: RValue
 description: 
 published: true
-date: 2023-01-31T15:08:19.092Z
+date: 2023-01-31T16:08:02.508Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:08:19.092Z
