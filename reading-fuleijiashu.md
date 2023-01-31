@@ -1,8 +1,8 @@
 ---
-title: 读书笔记-傅雷家书
+title: 傅雷家书
 description: 
 published: true
-date: 2023-01-31T15:32:26.792Z
+date: 2023-01-31T16:21:16.558Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:32:01.484Z
