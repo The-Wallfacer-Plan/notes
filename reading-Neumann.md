@@ -1,8 +1,8 @@
 ---
-title: 读书笔记-冯诺依曼-人类与机器界天才
+title: 冯诺依曼-人类与机器界天才
 description: 
 published: true
-date: 2023-01-31T15:50:54.651Z
+date: 2023-01-31T16:22:11.065Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-31T15:36:56.600Z
