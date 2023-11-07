@@ -10,21 +10,6 @@ dateCreated: 2023-01-31T15:08:19.092Z
 
 > Basically referred to [C++ Rvalue References Explained](http://thbecker.net/articles/rvalue_references/section_01.html)
 
-# No-Name Rule
-
-The insight: the lifespan of the variable in the right-hand-side
-- If it does not have a name, it's an **rvalue**.
-- If it has a name, then it's an **lvalue**.
-
-# Reference Collapsing Rules
-
-  ```
-   A& & becomes A&
-   A& && becomes A&
-   A&& & becomes A&
-   A&& && becomes A&&
-  ```
-
 # Template Argument Deduction Rule
 
   ```cpp
@@ -54,41 +39,6 @@ The insight: the lifespan of the variable in the right-hand-side
   // is equavalent to
   static_cast<X&&>(x);
   ```
-
-# move semantics and exceptions
-
-1. For copy constructor and the copy assignment operator
-
-  1. Write implementation so that they cannot throw exceptions
-  1. add noexcept keyword
-
-```c++
-// Example, for std::move and `std::move_if_noexcept`
-#include <iostream>
-#include <utility>
-struct Bad {
-  Bad() {}
-  Bad(Bad&&) { std::cout << "Throwing move constructor called\n"; }
-  Bad(const Bad&) { std::cout << "Throwing copy constructor called\n"; }
-};
-struct Good {
-  Good() {}
-  Good(Good&&) noexcept {
-    std::cout << "Non-throwing move constructor called\n";
-  }
-  Good(const Good&) noexcept {
-    std::cout << "Non-throwing copy constructor called\n";
-  }
-};
-int main(void) {
-  Good g1;
-  Bad b1;
-  Good g2 = std::move_if_noexcept(g1); // move
-  Good g3 = std::move(g2);  // move
-  Bad b2 = std::move_if_noexcept(b1); // copy
-  Bad b3 = std::move(b2); // move
-}
-```
 
 # rvalue is NOT always necessary
 
@@ -147,7 +97,6 @@ int main(void) {
   ```
 
 # Summary
-1. Neither `std::move` nor `std::forward` does much, the rvalue reference semantics does.
 1. [A Brief Introduction to Rvalue References](http://www.artima.com/cppsource/rvalue.html)
 1. [Universal References in C++11—Scott Meyers](http://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
 
